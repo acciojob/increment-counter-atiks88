@@ -4,7 +4,7 @@
         const counterElement = document.getElementById('counter');
         const currentValue = parseInt(counterElement.innerText);
 
-        alert("Un-incremented Value: " + currentValue);
+        alert(currentValue);
 
         counterElement.innerText = currentValue + 1;
     }
